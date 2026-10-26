@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Финансы — личный учёт денег</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+  <h1>Финансы</h1>
+  <p class="lead">Личное приложение для учёта доходов и расходов. Работает на собственном сервере владельца и доступно только ему и людям, которым он сам выдал вход.</p>
+
+  <h2>Что оно делает</h2>
+  <ul>
+    <li>Учёт счетов, доходов, расходов, покупок, коммунальных платежей, кредитов и долгов.</li>
+    <li>Распознавание фото чеков: покупки сами раскладываются по статьям.</li>
+    <li>Резервная копия фото чеков на Google Диске владельца: папка «Финансы — чеки», расшифровка каждого чека и таблица-реестр.</li>
+  </ul>
+
+  <h2>Доступ к Google</h2>
+  <p>Приложение запрашивает только право <code>drive.file</code>: оно видит и меняет лишь файлы, которые создало само (свою папку с чеками и таблицу-реестр). Остальные файлы на Google Диске, почта и другие данные аккаунта ему недоступны. Отозвать доступ можно в любой момент: <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.</p>
+
+  <p><a href="privacy.html">Политика конфиденциальности</a></p>
+
+  <hr>
+  <h2 lang="en">About (English)</h2>
+  <p lang="en">“Finansy” is a private personal finance app running on its owner's own server. It is not a public service. It uses the Google Drive API with the <code>drive.file</code> scope only, to keep backup copies of the owner's receipt photos, their text transcripts and a registry spreadsheet in a folder the app creates on the owner's Google Drive. See the <a href="privacy.html">privacy policy</a>.</p>
+</main>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Финансы — политика конфиденциальности</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+  <p><a href="./">← Финансы</a></p>
+  <h1>Политика конфиденциальности</h1>
+  <p class="muted">Действует с 26 октября 2026 года.</p>
+
+  <h2>Чьё это приложение</h2>
+  <p>«Финансы» — личное приложение для учёта денег. Оно работает на собственном сервере владельца и не является публичным сервисом: войти могут только владелец и люди, которым он сам выдал логин и пароль.</p>
+
+  <h2>Какие данные хранятся</h2>
+  <ul>
+    <li>Данные учёта, которые вносит пользователь: счета, операции, покупки, платежи.</li>
+    <li>Фото чеков и скриншоты, которые пользователь загружает сам, и их расшифровка.</li>
+  </ul>
+  <p>Всё это хранится на сервере владельца. Данные не продаются, не используются для рекламы и не передаются третьим лицам. Исключение — сервис распознавания текста на фото, которому отправляется изображение чека, чтобы прочитать его содержимое.</p>
+
+  <h2>Google Диск</h2>
+  <p>Если владелец подключил свой Google Диск, приложение использует Google Drive API и Google Sheets API с правом <code>drive.file</code>. Оно создаёт на Диске владельца папку «Финансы — чеки», кладёт туда копии фото чеков и их текстовую расшифровку и ведёт таблицу-реестр. Приложение видит только эти созданные им файлы; другие файлы, почта и данные аккаунта Google ему недоступны.</p>
+  <p>Данные, полученные через API Google, используются только для хранения этих резервных копий и не передаются никому. Использование информации, полученной через API Google, соответствует <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, включая требования Limited Use.</p>
+
+  <h2>Удаление и отзыв доступа</h2>
+  <p>Доступ к Google Диску можно отозвать в любой момент на странице <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a> или кнопкой «Отключить» в админ-панели приложения. Файлы на Диске принадлежат владельцу Диска: он может удалить их сам. Данные на сервере удаляются вместе с кабинетом по запросу к владельцу приложения.</p>
+
+  <h2>Связь</h2>
+  <p>Вопросы — владельцу приложения через <a href="https://github.com/grigorijmetalnikov-ux">GitHub</a>.</p>
+
+  <hr>
+  <h2 lang="en">Privacy policy (English summary)</h2>
+  <p lang="en">“Finansy” is a private personal finance app hosted on its owner's server; only the owner and people the owner invited can sign in. Data entered by users (accounts, transactions, receipt photos) is stored on that server, is never sold, never used for ads and never shared with third parties, except that receipt images are sent to a text-recognition service to read them. When the owner connects Google Drive, the app uses the Google Drive and Google Sheets APIs with the <code>drive.file</code> scope only: it creates a “Финансы — чеки” folder, stores receipt photo backups, text transcripts and a registry spreadsheet there, and cannot see any other files. The app's use of information received from Google APIs adheres to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements. Access can be revoked at any time at <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.</p>
+</main>
+</body>
+</html>
